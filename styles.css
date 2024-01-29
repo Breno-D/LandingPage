@@ -3,6 +3,28 @@
     margin: 0;
 }
 
+ul{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0px;
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: 0px;
+}
+
 .hero,
 .header{
     display: flex;
@@ -76,15 +98,6 @@
     font-size: 18px;
 }
 
-button{
-    height: 2rem;
-    width: 8rem;
-    border-radius: 5px;
-    background-color: #3882f6;
-    color: #e5e7eb;
-    border: 0px;
-}
-
 .hero-text,
 a{
     color: #e5e7eb;
@@ -118,15 +131,38 @@ a{
     font-size: 20px;
 }
 
-ul{
-    padding: 0px;
-    margin: 0px;
-    margin-top: 0px;
+.cta{
     display: flex;
-    list-style-type: none;
-    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem 14rem;
 }
 
-a{
-    text-decoration: none;
+.cta-wrapper{
+    background-color: #3882f6;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 0;
+    width: 75rem;
+    flex-wrap: wrap;
+}
+
+.cta-header{
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 24px;
+    padding-bottom: 0.5rem;
+}
+
+.cta-text{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.cta-wrapper button{
+    border: 2px solid white;
+    font-weight: bolder;
+    color: #F9FAF8;
 }
