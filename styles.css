@@ -166,3 +166,11 @@ a{
     font-weight: bolder;
     color: #F9FAF8;
 }
+
+.footer{
+    font-weight: bold;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 2rem 0;
+}
